@@ -1,0 +1,2 @@
+mongoose is an ODM(Object Data Modelling) library, it basically wraps mongodb with an extra layer that allows us to use methods to read and write database documents and it also gives 
+us a way to declare models and schemas to ensure a more strict datastructure. It can be used to connect to mongodb databse.
