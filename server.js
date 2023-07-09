@@ -31,7 +31,7 @@ app.use('https://todolist-api-5zdi.onrender.com/api/todolist', todoroutes)  //on
 mongoose.connect(process.env.MONGO_URI)
 .then(() => {
     //listening for requests, only when we are connected to the database
-    app.listen(process.env.PORT, ()=>{
+    app.listen(10000, ()=>{
          console.log('Connected to DB and listening to the port 4000')
     })
 
