@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 //route handler for reacting to the listening, req - request object which has the info about the request
 //res - response object used for sending a response back to the browser or the client
 //app.use(todoroutes)  //takes all the routes from the todoroutes and uses them here
-app.use('https://todolist-api-5zdi.onrender.com/api/todolist', todoroutes)  //only fire the routes when we come accross the path /api/todolist
+app.use('https://todolist-lro7.onrender.com/api/todolist', todoroutes)  //only fire the routes when we come accross the path /api/todolist
 //that is when a request is fired to the above path,then we fire all the routes
 
 //connect to db, asynchronous in nature
